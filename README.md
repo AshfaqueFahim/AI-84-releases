@@ -2,7 +2,7 @@
 
 ## What's new
 
-**Version 2.** A small test update. Your calculator works exactly the same as before.
+**Version 3.** Picking UPDATE no longer shows an error on the calculator's screen. The battery also lasts longer, because the camera now switches off when you are not taking a photo.
 
 Every update comes with a short note here saying what changes for you, in plain words. If nothing changes in how you use your calculator, the note says so.
 
