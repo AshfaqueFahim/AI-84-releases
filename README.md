@@ -1,21 +1,24 @@
 # AI-84 firmware releases
 
-This repository holds **compiled firmware only**. There is no source code here.
+## What's new
 
-Each release contains two files:
+**Version 2.** A small test update. Your calculator works exactly the same as before.
 
-| File | What it is |
-|---|---|
-| `firmware.bin` | The firmware image the calculator installs |
-| `manifest.json` | Its version, size, checksum and signature |
+Every update comes with a short note here saying what changes for you, in plain words. If nothing changes in how you use your calculator, the note says so.
 
 ## Updating your calculator
 
-Press `PRGM`, run `LAUNCHER`, and choose `UPDATE`. The calculator downloads
-from here by itself. You do not need a computer, a cable, or an account.
+Press `PRGM`, run `LAUNCHER`, and choose `UPDATE`. The calculator downloads the update from here by itself. You do not need a computer, a cable, or an account.
 
-## Security
+Keep the calculator on and near your WiFi until it says `UPDATED`. If anything goes wrong, your calculator keeps the version it already had, so it is always safe to try again.
 
-Every release is cryptographically signed. A calculator installs a file only
-if the signature matches the key built into it, so a file from anyone else is
-refused.
+## What is in this repository
+
+Only the files your calculator downloads. There is no source code here.
+
+| File | What it is |
+|---|---|
+| `firmware.bin` | The update itself |
+| `manifest.json` | Its version number and a signature |
+
+Every update is signed. Your calculator installs a file only if the signature matches, so a file from anyone else is refused.
