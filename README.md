@@ -2,7 +2,7 @@
 
 ## What's new
 
-**Version 3.** Picking UPDATE no longer shows an error on the calculator's screen. The battery also lasts longer, because the camera now switches off when you are not taking a photo.
+**Version 5.** The menu gains a SYSTEM entry where you can restart the computer inside the calculator and see what it has been doing. Setting up a key from a phone or laptop now works even when the camera does not. The calculator reconnects to WiFi by itself, and keeps working while the WiFi is down. An update that is interrupted tries again on its own. A calculator that has not been set up yet makes its own GPTCalc WiFi network, so you can set it up from your phone.
 
 Every update comes with a short note here saying what changes for you, in plain words. If nothing changes in how you use your calculator, the note says so.
 
